@@ -44,7 +44,7 @@ class SwtestDay3PracticeApplicationTests {
         assertEquals(HttpStatus.CREATED, response.getStatusCode());
         assertNotNull(response.getBody());
         assertNotNull(response.getBody().getId());
-        assertEquals("김철수", response.getBody().getName());
+        assertEquals("김영희", response.getBody().getName());
     }
 
     @Test
